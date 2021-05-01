@@ -14,5 +14,4 @@ int main()
         printf( "\n   EL N%MERO INTRODUCIDO ES IMPAR" );
 
 
-    return 0;
 }
