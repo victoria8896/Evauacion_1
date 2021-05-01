@@ -5,13 +5,13 @@ int main()
 {
     int numero;
 
-    printf( "\n   Introduzca un n%cmero entero: ", 163 );
+    printf( "\n   Introduzca un nucmero entero: ", 163 );
     scanf( "%d", &numero );
 
     if ( numero % 2 == 0 )
-        printf( "\n   EL N%MERO INTRODUCIDO ES PAR" );
+        printf( "\n   EL NUMERO INTRODUCIDO ES PAR" );
     else
-        printf( "\n   EL N%MERO INTRODUCIDO ES IMPAR" );
+        printf( "\n   EL NUMERO INTRODUCIDO ES IMPAR" );
 
 
 }
