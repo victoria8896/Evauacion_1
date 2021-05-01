@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 
-    cout << "\nIntroduce un numero entero\n";
+    cout << "\nDigite un numero entero\n";
     cin>>numero;
             if (numero % 2 == 0)
             cout << "\n El NUMERO ES PAR: ";

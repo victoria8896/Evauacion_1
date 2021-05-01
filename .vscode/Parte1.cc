@@ -9,7 +9,7 @@ using namespace std;
 int costo,inicial;
 float cuota;
 int main(){
-       cout<<"\nIngrese el costo de la carrera: "; 
+       cout<<"\nIngrese el costo de la carrera:  "; 
        cin >> costo;
        inicial = costo * 0.20;       
        cuota = ((float)costo-inicial) / 36;
