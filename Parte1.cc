@@ -1,17 +1,19 @@
 #include <iostream>
-#include <stdio.h>
-
+ 
+using namespace std;
+ 
+ int numero;
 int main()
 {
-    int numero;
 
-    printf( "\n   Introduzca un nucmero entero: ", 163 );
-    scanf( "%d", &numero );
-
-    if ( numero % 2 == 0 )
-        printf( "\n   EL NUMERO INTRODUCIDO ES PAR" );
-    else
-        printf( "\n   EL NUMERO INTRODUCIDO ES IMPAR" );
-
-
+    cout << "\nIntroduce un numero entero" << endl;
+    cin>>numero;
+            if (numero % 2 == 0)
+            cout << "\n El NUMERO ES PAR: ";
+            else
+           cout << "\nEL NUMERO ES IMPAR ";
+    
+    cout << endl;
+ 
+    return 0;
 }
